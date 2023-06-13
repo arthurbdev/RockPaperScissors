@@ -5,9 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </head>
   <body>
+    <div id="ui">
+      <div class="buttons">
+        <button id="rock-btn">Rock</button>
+        <button id="paper-btn">Paper</button>
+        <button id="scissors-btn">Scissors</button>
+      </div>
+      <div id="results">Do you have what it takes to stop AI from surpassing humanity?</div>
+      <div id="score">Score: You - <span id="player-score">0</span>
+          AI v1.0-rps - <span id="computer-score">0</span></div>
+      <div id="win"></div>
+      <button id="play-again" hidden>Play again?</button>
+    </div>
   
   </body>
 </html>
